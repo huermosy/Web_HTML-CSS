@@ -24,8 +24,38 @@ images文件夹：网站上使用所有图片
 styles文件夹：提供CSS样式，文本及背景色
 scripts文件夹：给网站提供交互功能的javaScript代码
 
-#### 5. ，命令行速成
+#### 5. 命令行速成
 Glitch.com   test网址 支持访问本机 练习终端命令
 Prettier 是一款专门为前端开发人员设计的代码格式化工具，专注于基于 javascript 的语言，
 npm 是 JavaScript 世界里最为流行的包管理工具，同时也是 Node.js 的默认包管理器
 ##### 兴趣使然，更多工具，进程查看器：当某些东西使cpu风扇行为像一个喷气发动机，可以学习使用它；并且可以看出错程序有用 TODO
+<hr>
+### 第二章 HTML基础
+#### 1. 网站是怎样的
+#### 2. HTML基础
+**什么是HTML**
+HTML是一种用于定义内容结构的标记语言。可以由一段文字、图片及超链接组成。能够设置文字字体等；
+My cat is very grumpy
+![HTML](./test-site/images/1.png)
+<p>My cat is very grumpy</p>
+记忆方式： p -> paragraph  段落
+以上组成方式： 1. 开始标签； 2. 结束标签  3. 内容  4. 元素
+
+
+
+**有值属性包括**
+1. 属性与元素名称之间的一个空格
+2. 属性名，后接一个等号
+3. 属性值，''一对引号包围
+![HTML](./test-site/images/2.png)
+
+<strong>嵌套元素</strong>
+将一个元素嵌套在另一个元素中,
+<p>My cat is <strong>very</strong> grumpy(脾气坏的).</p>
+<strong>空元素</strong>
+不包含任何内容的叫做空元素； 更好理解应该是<strong>空标签</strong>/<strong>单标签</strong>。
+比如：
+
+&lt;img&gt;&lt;br&gt;以及&lt;input&gt;
+
+<img src="./test-site/images/deepseek.jpeg" alt="My test image"/>
