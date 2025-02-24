@@ -3,7 +3,7 @@ function createGreeting(name) {
     return greeting;
   }
   
-  const helloChris = createGreeting("Chris);
+  const helloChris = createGreeting("Chris");
   
-  console.log(helloChris;
+  console.log(helloChris);
   

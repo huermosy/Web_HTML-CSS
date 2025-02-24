@@ -29,3 +29,15 @@ Glitch.com   test网址 支持访问本机 练习终端命令
 Prettier 是一款专门为前端开发人员设计的代码格式化工具，专注于基于 javascript 的语言，
 npm 是 JavaScript 世界里最为流行的包管理工具，同时也是 Node.js 的默认包管理器
 ##### 兴趣使然，更多工具，进程查看器：当某些东西使cpu风扇行为像一个喷气发动机，可以学习使用它；并且可以看出错程序有用 TODO
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>示例页面</title>
+</head>
+<body>
+    <p>这是一个段落</p>
+</body>
+</html>
