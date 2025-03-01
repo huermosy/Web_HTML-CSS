@@ -30,6 +30,10 @@ Prettier 是一款专门为前端开发人员设计的代码格式化工具，�
 npm 是 JavaScript 世界里最为流行的包管理工具，同时也是 Node.js 的默认包管理器
 ##### 兴趣使然，更多工具，进程查看器：当某些东西使cpu风扇行为像一个喷气发动机，可以学习使用它；并且可以看出错程序有用 TODO
 
+function add(a, b) {
+  return a + b;
+}
+console.log(add(3, 5));
 
 
 <!DOCTYPE html>
@@ -40,4 +44,21 @@ npm 是 JavaScript 世界里最为流行的包管理工具，同时也是 Node.j
 <body>
     <p>这是一个段落</p>
 </body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>示例HTML页面</title>
+</head>
+
+<body>
+    <h1>欢迎来到我的页面</h1>
+    <p>这是一个简单的HTML页面示例。</p>
+</body>
+
 </html>
