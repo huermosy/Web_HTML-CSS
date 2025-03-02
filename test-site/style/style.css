@@ -1,0 +1,47 @@
+/*
+p,
+li,
+h1{
+    color:red;
+    width: 100px;
+    height: 300px;
+    border: 1px solid gray;
+}
+
+strong{
+    color:blue;
+}*****/
+
+html{
+    font: size 10px;
+    font-family: "Open Sans", sans-serif;
+    background-color: aqua;
+}
+
+/*文档体样式*/
+body {
+    width: 800px;
+    margin: 0 auto;     /*它是一个缩写属性，
+    等同于 margin-top: 0; margin-bottom: 0; margin-left: auto; margin-right: auto;。*/
+    background-color: #ff9500;
+    padding: 0px 20px 20px 20px;
+    border: 2px solid black;
+}
+
+h1{
+font-size: 60px;
+margin: 0;
+/*text-align: center;*/
+}
+
+p,
+li{
+font-size: 16px;
+line-height: 2;         /*将li元素的行高设为字体的2被*/
+letter-spacing: 1px;        /*使li元素的neiwenben字符间距增加1px*/
+}
+
+img {
+    margin: 0 auto;
+    display: block;     /*块级元素，作用于行的img*/
+}
