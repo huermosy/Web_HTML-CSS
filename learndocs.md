@@ -1,6 +1,6 @@
 <style>
 html {
-  background-color: #ff003a;
+  //background-color: #ff003a;
 }
 
 h1 {
@@ -36,6 +36,10 @@ h5{
 div {
   margin:5px;
   padding: 3px;
+}
+
+ul {
+  // display: flex;
 }
 
 </style>
@@ -202,4 +206,36 @@ p{
 
 <h2> JavaScript基础 </h2>
 <span> 是什么：</span> <div>为网站添加交互性的编程语言</div>
+<p>div:division全称，块级元素；span：跨度，内联元素，不会换行</p>
 <p>javascript最流行的web技术之一</p>
+
+<h4>变量</h4>
+<p>
+let myVariable;     // 变量的声明
+<div>数据类型</div>
+<ul>
+<li>字符串</li>
+<li>布尔</li>
+<li>对象  如：const var = document.querySelector("标签")</li>
+<li>数组<li>
+</ul>
+</p>
+
+<h4>函数</h4>
+<p>如：document.querySelector() 、  alert()输出信息等</p>
+<p> 事件函数:   addEventListener;   onclick 搭配lambda函数 </p>
+
+<h2>Web的工作原理</h2>
+<h3>万维网是如何工作的</h3>
+<ul>
+<li>网络连接:允许web收发数据；商店购物街道</li>
+<li>TCP/IP：传输控制协议和互联网协议；交通工具</li>
+<li>DNS：域名系统；地址簿</li>
+<li>HTTP：超文本传输协议；应用层协议，下订单时说的话一样</li>
+<li>组成文件：代码及资源</li>
+</ul>
+<p>发生了什么？ 客户端根据DNS找到Server，client发送HTTP请求到client，需要一份server的副本到client，这条消息及c与s之间的传输都是通过TCP/Ip协议的；server同意，发送200OK然后将网页以数据包形式给client，拿到后浏览器渲染</p>
+<h3>浏览器如何加载网页</h3>
+<p>HTML -> 解析后转换为DOM树（文档对象模型）树状结构。某些文件在解析时会触发更多HTTP请求</p>
+<p>CSS -> 将CSS样式规则排序到不同的”桶“中，浏览器渲染树，附加到节点进行渲染</p>
+<p>javascript -> 页面上所有jsp都可以被解析、解释、编译、执行，在渲染之前影响到最后结果；比如往DOM添加节点/修改节点</p>
