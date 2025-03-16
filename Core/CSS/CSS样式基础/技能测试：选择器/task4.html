@@ -1,0 +1,35 @@
+<style>
+    body {
+  font: 1.2em / 1.5 sans-serif;
+}
+/* 在这里添加样式 */
+    h2 + p{
+        color:red;
+    }
+
+    p + ul > li{
+        list-style-type: none;
+        border-bottom: 1px solid grey;
+    }
+</style>
+
+<div class="container">
+    <h2>This is a heading</h2>
+    <p>This paragraph comes after the heading.</p>
+    <p>This is the second paragraph.</p>
+  
+    <h2>Another heading</h2>
+    <p>This paragraph comes after the heading.</p>
+    <ul class="list">
+      <li>One</li>
+      <li>
+        Two
+        <ul>
+          <li>2.1</li>
+          <li>2.2</li>
+        </ul>
+      </li>
+      <li>Three</li>
+    </ul>
+  </div>
+  
